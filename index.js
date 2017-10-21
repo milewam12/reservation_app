@@ -6,7 +6,7 @@ var path = require("path");
 
 var PORT = process.env.PORT || 3000;
 
-// boilerplate for app.use
+// boilerplate for app.use 
 app.get("/", function (request, res) {
     res.send("some text");
 })
